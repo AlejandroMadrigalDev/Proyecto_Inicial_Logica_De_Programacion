@@ -4,7 +4,7 @@ let numeroUsuario = prompt("Me indicas un numero entre 1 y 20 por favor: ");
 console.log(numeroUsuario);
 
 if (numeroUsuario == numeroSecreto) {
-    alert("Has acertado");
+    alert(`Has acertado, el numero es: ${numeroSecreto}`);
 } else {
     alert("Lo siento, no acertaste el numero.")
 }
@@ -14,3 +14,5 @@ if (numeroUsuario == numeroSecreto) {
 /*
     Diversos tipos de comentarios
 */
+
+//Usa console.log puede ser util ara saber como esta funcionando el programa, las variables y datos.
